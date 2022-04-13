@@ -8,8 +8,10 @@ public class HlavniProgram {
     public void main(String[] args) {
 
         zofka = new Turtle();
-        nakresliDomecek();
 
+        for (int i = 0; i < 4; i++) {
+            nakresliDomecek();
+        }
 
     }
 
